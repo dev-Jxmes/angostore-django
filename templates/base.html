@@ -7,6 +7,10 @@
 <meta http-equiv="cache-control" content="max-age=604800" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+<!--<meta http-equiv="Content-Security-Policy" content="script-src 'self' www.sandbox.paypal.com ">-->
+<!--<meta http-equiv="Content-Security-Policy" content="sandbox allow-forms allow-scripts allow-popups allow-popups-to-escape-sandbox">-->
+
+
 <title>GreatKart | One of the Biggest Online Shopping Platform</title>
 
 <link href="{% static 'images/favicon.ico' %}" rel="shortcut icon" type="image/x-icon">
@@ -27,6 +31,9 @@
 
 <!-- custom javascript -->
 <script src="{% static 'js/script.js' %}" type="text/javascript"></script>
+
+ <!-- Include the PayPal JavaScript SDK -->
+ <script src="https://www.paypal.com/sdk/js?client-id=ASKwwj_RqVNKfzV6Rs6tF_5Q183CN9TydiccsQzNZc0vvfYdEqwZ7JwmHzW06vReAF8Ubw5-3EWHnrQ0&currency=USD"></script>
 
 <script type="{% static 'text/javascript' %}">
 /// some script
